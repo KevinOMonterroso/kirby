@@ -49,10 +49,10 @@ function App() {
                     repeatDelay: 4,
                     ease: "easeInOut",
                   }}
-                  className="flex h-14 w-5 origin-center flex-col items-center justify-between rounded-full bg-black p-0.5 sm:h-18 sm:w-6 sm:p-1 md:h-22 md:w-9"
+                  className="rounded-oval flex h-14 w-5 origin-center flex-col items-center justify-between bg-black p-0.5 sm:h-18 sm:w-6 sm:p-1 md:h-22 md:w-9"
                 >
-                  <figure className="border-opacity-10 h-6 w-4 rounded-full bg-radial from-white via-white to-black sm:h-8 sm:w-5 md:h-10 md:w-6"></figure>
-                  <figure className="h-7 w-4 rounded-b-full bg-linear-to-t from-blue-900 to-black sm:h-10 sm:w-5 md:h-13 md:w-6"></figure>
+                  <figure className="rounded-oval h-9 w-4 bg-radial from-white via-white to-black sm:h-8 sm:w-5 md:h-10 md:w-6"></figure>
+                  <figure className="rounded-oval h-7 w-4 bg-linear-to-t from-blue-900 to-black sm:h-10 sm:w-5 md:h-13 md:w-6"></figure>
                 </motion.figure>
                 <motion.figure
                   animate={{ scaleY: [1, 0.01, 1] }}
@@ -62,17 +62,17 @@ function App() {
                     repeatDelay: 4,
                     ease: "easeInOut",
                   }}
-                  className="flex h-14 w-5 flex-col items-center justify-between rounded-full bg-black p-0.5 sm:h-18 sm:w-6 sm:p-1 md:h-22 md:w-9"
+                  className="rounded-oval flex h-14 w-5 flex-col items-center justify-between bg-black p-0.5 sm:h-18 sm:w-6 sm:p-1 md:h-22 md:w-9"
                 >
-                  <figure className="h-6 w-4 rounded-full bg-radial from-white via-white to-black sm:h-8 sm:w-5 md:h-10 md:w-6"></figure>
-                  <figure className="h-7 w-4 rounded-b-full bg-linear-to-t from-blue-900 to-black sm:h-10 sm:w-5 md:h-13 md:w-6"></figure>
+                  <figure className="rounded-oval h-9 w-4 bg-radial from-white via-white to-black sm:h-8 sm:w-5 md:h-10 md:w-6"></figure>
+                  <figure className="rounded-oval h-7 w-4 bg-linear-to-t from-blue-900 to-black sm:h-10 sm:w-5 md:h-13 md:w-6"></figure>
                 </motion.figure>
               </div>
             </div>
             <div id="blush" className="relative top-1 sm:top-1.5 md:top-2">
               <div className="flex flex-row gap-12 sm:gap-20 md:gap-30">
-                <figure className="h-4 w-8 rounded-full bg-radial from-rose-500 via-rose-500 to-pink-400 sm:h-5.5 sm:w-11 md:h-7 md:w-14"></figure>
-                <figure className="h-4 w-8 rounded-full bg-radial from-rose-500 via-rose-500 to-pink-400 sm:h-5.5 sm:w-11 md:h-7 md:w-14"></figure>
+                <figure className="rounded-oval h-4 w-8 bg-radial from-rose-500 via-pink-500 to-pink-400 sm:h-5.5 sm:w-11 md:h-7 md:w-14"></figure>
+                <figure className="rounded-oval h-4 w-8 bg-radial from-rose-500 via-pink-500 to-pink-400 sm:h-5.5 sm:w-11 md:h-7 md:w-14"></figure>
               </div>
             </div>
             <div id="mouth" className="relative">
@@ -107,8 +107,8 @@ function App() {
             className="absolute top-27 left-1/2 -translate-x-1/2 sm:top-72 md:top-96 lg:top-120"
           >
             <div className="flex flex-row gap-6 sm:gap-8 md:gap-12">
-              <figure className="z-0 h-20 w-14 rotate-20 rounded-[50%] bg-linear-to-t from-rose-600 via-rose-600 to-black sm:h-24 sm:w-18 md:h-32 md:w-24"></figure>
-              <figure className="z-0 h-20 w-14 -rotate-20 rounded-[50%] bg-linear-to-t from-rose-600 via-rose-600 to-black sm:h-24 sm:w-18 md:h-32 md:w-24"></figure>
+              <figure className="rounded-oval z-0 h-20 w-14 rotate-20 bg-linear-to-t from-rose-600 via-rose-600 to-black sm:h-24 sm:w-18 md:h-32 md:w-24"></figure>
+              <figure className="rounded-oval z-0 h-20 w-14 -rotate-20 bg-linear-to-t from-rose-600 via-rose-600 to-black sm:h-24 sm:w-18 md:h-32 md:w-24"></figure>
             </div>
           </div>
         </div>
